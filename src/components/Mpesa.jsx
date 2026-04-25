@@ -39,7 +39,7 @@ const handlesubmit=async(e)=>{
 
 
           <form action="" onSubmit={handlesubmit}>
-            <input type="tel" placeholder='Enter Phone (2547xxxxxxx)' className='form-control p-3' onChange={(e)=>setPhone(e.target.value)} /><br />
+            <input type="tel" placeholder='Enter Phone (2547********)' className='form-control p-3' onChange={(e)=>setPhone(e.target.value)} /><br />
             <button type='submit' className='btn btn-outline-primary w-100'>Make Payment</button>
             </form>
           </div>

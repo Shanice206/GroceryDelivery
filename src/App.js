@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <h1 className='text-dark'><b>CICY'S GROCERY SHOP </b></h1>
+        <h1 className='text-dark'><b>Fresh Food Deliveries </b></h1>
       </header>
         <Navbar/>
 
@@ -30,8 +30,8 @@ function App() {
       <div className="row bg-dark text-light p-4">
       <div className="col-md-4 justify-content-center">
         <h3>About us</h3>
-        <p>Cicy's Grocery Shop is a qualified online platform where you can shop for fresh groceries from the comfort of your house and they get delivered in minutes</p>
-        <p>We are also available across all online platforms as Cicy's Groceries</p>
+        <p>Fresh Food Deliveries  is a qualified online platform where you can shop for fresh meals from the comfort of your house and they get delivered in minutes</p>
+        <p>We are also available across all online platforms as Fresh Food Deliveries</p>
       </div>
       <div className="col-md-4 justify-content-center">
         <h3>Contact us</h3>
@@ -57,7 +57,7 @@ function App() {
       </div>
       </div>
       <footer className='App-footer'>
-        <h2>Cicy's Grocery Shop @ 2026 All rights reserved</h2>
+        <h2>Fresh Food Deliveries @ 2026 All rights reserved</h2>
       </footer>
     
     </div>

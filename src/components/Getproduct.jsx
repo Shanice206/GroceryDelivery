@@ -36,22 +36,22 @@ const[error,setError]=useState("")
 return (
 
     <div className='row'>
-      <h2>Available Groceries In Store</h2>
+      <h2>Meals in store</h2>
 
       <div className="row col-md-12">
         <div className="carousel slide row col-md-12" data-bs-ride="carousel" id="mycarousel">
           <div className='carousel inner'>
             <div className="carousel-item active">
-              <img src="/image/image1.jpg" alt="image 1" className="w-100 d-block" height={290}/>
+              <img src="/image/im1.jpg" alt="img 1" className="w-100 d-block" height={290}/>
             </div>
             <div className="carousel-item active">
-              <img src="/image/image2.jpg" alt="image 2" className="w-100 d-block" height={290}/>
+              <img src="/image/img2.jpg" alt="image 2" className="w-100 d-block" height={290}/>
             </div>
             <div className="carousel-item active">
-              <img src="/image/image3.jpg" alt="image 3" className="w-100 d-block" height={290} />
+              <img src="/image/img3.jpg" alt="image 3" className="w-100 d-block" height={290} />
             </div>
             <div className="carousel-item active">
-              <img src="/image/image4.jpg" alt="image 4" className="w-100 d-block" height={290} />
+              <img src="/image/img4.jpg" alt="image 4" className="w-100 d-block" height={290} />
               </div>
               <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon bg-dark"></span>

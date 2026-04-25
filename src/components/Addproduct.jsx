@@ -57,15 +57,15 @@ const Addproduct = () => {
       <div className="row mt-4 justify-content-center">
         <div className="col-md-6 card shadow p-4 ">
           
-      <h1>Add groceries</h1>
+      <h1>Add Meals</h1>
       <h2 className='text-warning'>{loading}</h2>
       <h2 className='text-success'>{success}</h2>
       <h2 className='text-danger'>{error}</h2>
 
        <form action="" onSubmit={handlesubmit}>
-          <input type="text" placeholder='Enter product name' className='form-control' onChange={(e)=>setProductname(e.target.value)}required/><br />
-          <textarea name="" id="" cols="57" row="3" className='form-control'placeholder='Describe your product' onChange={(e)=>setProductDescription(e.target.value)}required></textarea>
-          <input type="number" placeholder='Enter product cost'className='form-control' onChange={(e)=>setProductcost(e.target.value)} required/><br /><br />
+          <input type="text" placeholder=' product name' className='form-control' onChange={(e)=>setProductname(e.target.value)}required/><br />
+          <textarea name="" id="" cols="57" row="3" className='form-control'placeholder='Describe product' onChange={(e)=>setProductDescription(e.target.value)}required></textarea>
+          <input type="number" placeholder=' product cost'className='form-control' onChange={(e)=>setProductcost(e.target.value)} required/><br /><br />
           <input type="file" className='form-control' required accept='image/*' onChange={(e)=>setproductPhoto(e.target.files[0])}/><br />
           <input type="submit" className='btn btn-outline-primary w-100' value="Upload product" />
        </form>
